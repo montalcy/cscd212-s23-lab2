@@ -15,6 +15,8 @@ public class Television implements Comparable<Television>{
             throw new IllegalArgumentException("Please check input");
         if(resolution==2160)
             this.fourK=true;
+        else
+            this.fourK=false;
         this.make=make;
         this.model=model;
         this.smart=smart;
@@ -22,9 +24,9 @@ public class Television implements Comparable<Television>{
         this.resolution=resolution;
     }
 
-    /*public Television(final String model, final boolean smart, final int screenSize, final int resolution, final String make){
-        Television tv=new Television(make, model, smart, screenSize, resolution);
-    }*/
+    public Television(final String model, final boolean smart, final int screenSize, final int resolution, final String make){
+       this(make, model, smart, screenSize, resolution);
+    }
 
     public int getScreenSize(){
         return this.screenSize;
