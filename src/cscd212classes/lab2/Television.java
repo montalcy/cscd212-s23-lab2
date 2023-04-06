@@ -22,9 +22,9 @@ public class Television implements Comparable<Television>{
         this.resolution=resolution;
     }
 
-    public Television(String model, boolean smart, int screenSize, int resolution, String make){
+    /*public Television(final String model, final boolean smart, final int screenSize, final int resolution, final String make){
         Television tv=new Television(make, model, smart, screenSize, resolution);
-    }
+    }*/
 
     public int getScreenSize(){
         return this.screenSize;

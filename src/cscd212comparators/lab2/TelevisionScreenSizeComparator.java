@@ -1,4 +1,6 @@
-package cscd212classes.lab2;
+package cscd212comparators.lab2;
+
+import cscd212classes.lab2.Television;
 
 import java.util.Comparator;
 

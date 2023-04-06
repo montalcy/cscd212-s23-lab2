@@ -1,4 +1,4 @@
-package cscd212tests.lab2;
+package tests.cscd212tests.lab2;
 
 import cscd212classes.lab2.Television;
 import cscd212comparators.lab2.TelevisionScreenSizeComparator;
